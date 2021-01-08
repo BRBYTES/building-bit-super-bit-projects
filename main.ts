@@ -14,6 +14,7 @@ basic.forever(function () {
         basic.showArrow(ArrowNames.North)
         radio.sendString("forward")
     } else {
+        radio.sendString("stop")
         basic.showIcon(IconNames.No)
     }
 })
