@@ -1,5 +1,5 @@
 {
-    "name": "controller",
+    "name": "spider-controller",
     "description": "",
     "dependencies": {
         "core": "*",
